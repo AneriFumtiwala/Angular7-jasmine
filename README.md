@@ -7,8 +7,8 @@ This is a test project to demonstrate custome date counter with Angular 7 and Ja
 ### Clone the repo
 
 ```shell
-git clone https://github.com/AneriFumtiwala/Angular7-jasmine
-cd Angular7-jasmine
+git clone https://github.com/AneriFumtiwala/CustomDateCounter-jasmine
+cd Angular7-jasmine/custom-date-counter
 ```
 
 ### Install npm packages
@@ -37,8 +37,6 @@ npm build                   | Runs the TypeScript compiler and asset copier once
 - <https://github.com/AneriFumtiwala>
 
 ## Thanks
-
-Thanks to all contributors and their support.
 
 If you have an idea or you want to do something, tell me or just do it!
 I'm always happy to hear your feedback!
