@@ -1,4 +1,4 @@
-# CustomDateCounter-jasmine
+# Custom Date Counter-Angular 7, ReactiveFormsModule and Jasmine
 This is a test project to demonstrate custome date counter with Angular 7 and Jasmine test environment. It is designed using ReactiveFormsModule with date validator handler. 
 
 
