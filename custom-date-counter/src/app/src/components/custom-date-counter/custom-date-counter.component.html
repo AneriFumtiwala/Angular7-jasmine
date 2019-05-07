@@ -1,0 +1,25 @@
+<!-- main app container -->
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h3>{{name}}</h3>
+                <form [formGroup]="dateForm">
+                    <div class="form-group">
+                        <label>Date</label>
+                        <input type="text" formControlName="date" class="form-control" [ngClass]="{'is-invalid': ((f.date.touched || f.date.dirty) && !f.date.valid) }" />
+                        <div *ngIf="f.date.errors" class="invalid-feedback">
+                            <div>Date should be in dd/mm/yyyy format</div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center" *ngIf="!f.date.errors">
+    <p>
+         <span class="fa fa-calendar-minus-o" (click)="subtractDays()"> </span> {{date}} <span class="fa fa-calendar-plus-o" (click)='addDays()'> </span>
+    </p>
+</div>
